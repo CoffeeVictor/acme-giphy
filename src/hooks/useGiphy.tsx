@@ -10,7 +10,6 @@ export const useGiphy = () => {
 
   const fetchGifs = async (inputTerm: string) => {
     const { data } = await giphy.search(inputTerm);
-
     setGifs(data);
   };
 

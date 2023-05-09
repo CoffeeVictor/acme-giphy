@@ -3,8 +3,10 @@ export interface IGiphyAPISearchResponse {
 }
 
 export interface IGiphyAPIResultData {
-  downsized_small: string;
-  fixed_width: string;
+  images: {
+    downsized_small: string;
+    fixed_width: string;
+  };
 }
 
 export class GiphyService {
