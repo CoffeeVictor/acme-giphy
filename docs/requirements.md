@@ -16,3 +16,4 @@
 - [ ] App should fetch gifs from de Giphy API
 - [ ] Initial loading of the gifs should be performant
 - [ ] History of searches should be stored on the browser directly
+- [ ] Gifs should have pagination
